@@ -2,7 +2,17 @@
 
 jQuery(document).ready(function() {//ждем загрузки все страницы
 
+    var avatarElem = document.getElementById('top-navbar');
 
+    var avatarSourceBottom = avatarElem.getBoundingClientRect().bottom + window.pageYOffset - 50;
+
+    window.onscroll = function() {
+      if (avatarElem.classList.contains('navbar-fixed-top') && window.pageYOffset < avatarSourceBottom) {
+        avatarElem.classList.remove('navbar-fixed-top');
+      } else if (window.pageYOffset > avatarSourceBottom) {
+        avatarElem.classList.add('navbar-fixed-top');
+      }
+    };
 
    // if (jQuery(window).scrollTop() < 333) {
    //    jQuery('#top-navbar').addClass('navbar-fixed-top');
