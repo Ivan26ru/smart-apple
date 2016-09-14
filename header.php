@@ -27,10 +27,10 @@
 </head>
 <body <?php body_class(); // все классы для body ?>>
 	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 navbar-margin">
 					<nav class="navbar navbar-default">
+					<!-- navbar-fixed-top для прижатие к потолку	 -->
+					<div class="container">
 						<div class="navbar-header">
 						                    <a class="navbar-brand" href="<?php echo site_url(); ?>">
 						                    	<span class="glyphicon glyphicon-random"></span>
@@ -59,8 +59,16 @@
                                 <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Отправить на ремонт</a>
                             </form>
 						</div>
+						</div><!-- container -->
 					</nav>
-				</div>
-			</div>
+				</div><!-- col-md-12 -->
+			</div><!-- row -->
 		</div>
 	</header>
+	<div class="clearfix"></div>
+	
+
+<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
+	get_template_part( 'carousel' );  
+}
+?>
