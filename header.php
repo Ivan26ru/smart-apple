@@ -27,8 +27,11 @@
 </head>
 <body <?php body_class(); // все классы для body ?>>
 	<header>
+	<div class="col-md-12">
+		<h1 class="text-center">test1</h1>
+	</div>
 				<div class="col-md-12 navbar-margin">
-					<nav class="navbar navbar-default">
+					<nav class="navbar navbar-default" id="top-navbar">
 					<!-- navbar-fixed-top для прижатие к потолку	 -->
 					<div class="container">
 						<div class="navbar-header">
