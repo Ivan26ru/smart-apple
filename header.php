@@ -62,8 +62,6 @@
 						</div><!-- container -->
 					</nav>
 				</div><!-- col-md-12 -->
-			</div><!-- row -->
-		</div>
 	</header>
 	<div class="clearfix"></div>
 	
