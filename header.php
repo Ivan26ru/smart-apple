@@ -56,6 +56,7 @@
 							?>
                             <!-- Отправить на ремонт -->
                             <form class="navbar-form navbar-right" role="search">
+                                <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Онлайн консультант</a>
                                 <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Отправить на ремонт</a>
                             </form>
 						</div>
