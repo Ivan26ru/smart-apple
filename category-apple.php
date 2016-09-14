@@ -5,6 +5,53 @@
  * @subpackage your-clean-template-3
  */
 get_header(); // подключаем header.php ?>
+<div class="container">
+	        <div class="row m-top img110 h170">
+            <!-- колонка -->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <a href="<?php echo get_category_link('5'); ?>">
+
+                    <div class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" alt="..." class="">
+                        <h4>Ремонт Apple iPhone</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- КОНЕЦ колонки -->
+            <!-- колонка -->
+            <div class="col-xs-6 col-sm-6 col-lg-3 col-md-3">
+                <a href="<?php echo get_category_link('10'); ?>">
+                    <div class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/2.jpg" alt="..." class="">
+                        <h4>Ремонт Apple iPad</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- КОНЕЦ колонки -->
+            <!-- колонка -->
+            <div class="col-xs-6 col-sm-6 col-lg-3 col-md-3">
+                <a href="<?php echo get_category_link('11'); ?>">
+                    <div class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/3.jpg" alt="..." class="">
+                        <h4>Ремонт Apple Macbook</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- КОНЕЦ колонки -->
+            <!-- колонка -->
+            <div class="col-xs-6 col-sm-6 col-lg-3 col-md-3  ">
+                <a href="<?php echo get_category_link('12'); ?>">
+                    <div class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/4.jpg" alt="..." class="">
+                        <h4>Ремонт Apple iMac</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- КОНЕЦ колонки -->
+        </div>
+        <!-- row -->
+        </div>
+        <!-- container -->
 <section>
 	<div class="container">
 		<div class="row">
@@ -29,5 +76,4 @@ else
 	</div>
 </section>
 
-Это Эйпл детка
 <?php get_footer(); // подключаем footer.php ?>
