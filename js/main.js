@@ -2,6 +2,7 @@
 
 jQuery(document).ready(function() {//ждем загрузки все страницы
 
+// прилипающее меню
     var avatarElem = document.getElementById('top-navbar');//id элемента, который будем прилеплять к шапке
 
     var avatarSourceBottom = avatarElem.getBoundingClientRect().bottom + window.pageYOffset;//определения нижнего пикселя элемента
