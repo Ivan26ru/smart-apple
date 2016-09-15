@@ -2,15 +2,15 @@
 
 jQuery(document).ready(function() {//ждем загрузки все страницы
 
-    var avatarElem = document.getElementById('top-navbar');
+    var avatarElem = document.getElementById('top-navbar');//id элемента, который будем прилеплять к шапке
 
-    var avatarSourceBottom = avatarElem.getBoundingClientRect().bottom + window.pageYOffset - 50;
+    var avatarSourceBottom = avatarElem.getBoundingClientRect().bottom + window.pageYOffset;//определения нижнего пикселя элемента
 
-    window.onscroll = function() {
+    window.onscroll = function() {//функция скроллинга
       if (avatarElem.classList.contains('navbar-fixed-top') && window.pageYOffset < avatarSourceBottom) {
-        avatarElem.classList.remove('navbar-fixed-top');
+        avatarElem.classList.remove('navbar-fixed-top');//добавить класс ни прокрутке вниз
       } else if (window.pageYOffset > avatarSourceBottom) {
-        avatarElem.classList.add('navbar-fixed-top');
+        avatarElem.classList.add('navbar-fixed-top');//убрать класс при обратной прокрутке
       }
     };
 
