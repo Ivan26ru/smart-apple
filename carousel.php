@@ -18,21 +18,21 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="http://placehold.it/1000x240" width="100%" alt="...">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/1.jpg" width="100%" alt="...">
                     <div class="carousel-caption">
                         <h1>Lorem ipsum dolor sit amet.</h1>
                         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, dolorem.</p>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="http://placehold.it/1000x240" width="100%" alt="...">
+                    <img src="http://placehold.it/960x240" width="100%" alt="...">
                     <div class="carousel-caption">
                         <h3>Lorem ipsum dolor sit amet.</h3>
                         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, sunt!</p>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="http://placehold.it/1000x240" width="100%" alt="...">
+                    <img src="http://placehold.it/960x240" width="100%" alt="...">
                     <div class="carousel-caption">
                         <h3>Lorem ipsum dolor sit amet.</h3>
                         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dignissimos?</p>
