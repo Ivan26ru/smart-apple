@@ -28,14 +28,14 @@
 <body <?php body_class(); // все классы для body ?>>
 	<header>
 	<div class="col-md-12">
-		<h1 class="text-center">test1</h1>
+		<h1 class="text-center"><?php bloginfo('name'); ?></h1>
 	</div>
 				<div class="col-md-12 navbar-margin">
 					<nav class="navbar navbar-default" id="top-navbar">
 					<!-- navbar-fixed-top для прижатие к потолку	 -->
 					<div class="container">
 						<div class="navbar-header">
-						                    <a class="navbar-brand" href="<?php echo site_url(); ?>">
+						                    <a class="navbar-brand dn" href="<?php echo site_url(); ?>" id="menu-top-name-siti">
 						                    	<span class="glyphicon glyphicon-random"></span>
                     							<?php bloginfo('name'); ?>
                     						</a>

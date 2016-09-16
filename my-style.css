@@ -20,6 +20,9 @@
 	height:260px;
 }
 
+.dn{
+	display: none;
+}
 /*.carousel .item img{
 	height: 100%;
 	width: 100%;
