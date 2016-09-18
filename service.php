@@ -44,18 +44,12 @@ wp_nav_menu($args); // выводим меню ТЕЛЕФОНОВ
                     <p>Ремонт планшетов</p>
                 </div>
             </a>
-            <ul class="forplates  list-unstyled">
-                <li><a href="#">lorem01</a></li>
-                <li><a href="#">lorem02</a></li>
-                <li><a href="#">lorem03</a></li>
-                <li><a href="#">lorem04</a></li>
-                <li><a href="#">lorem05</a></li>
-                <li><a href="#">lorem06</a></li>
-                <li><a href="#">lorem07</a></li>
-                <li><a href="#">lorem08</a></li>
-                <li><a href="#">lorem09</a></li>
-                <li><a href="#">lorem10</a></li>
-            </ul>
+    <?php $args = array(
+    'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    'theme_location'  => 'service-plansh'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
+);
+wp_nav_menu($args); // выводим меню планшетов
+?>
         </div>
         <div class="block col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <a href="#">
@@ -64,18 +58,12 @@ wp_nav_menu($args); // выводим меню ТЕЛЕФОНОВ
                     <p>Ремонт ноутбуков</p>
                 </div>
             </a>
-            <ul class="forplates  list-unstyled">
-                <li><a href="#">lorem01</a></li>
-                <li><a href="#">lorem02</a></li>
-                <li><a href="#">lorem03</a></li>
-                <li><a href="#">lorem04</a></li>
-                <li><a href="#">lorem05</a></li>
-                <li><a href="#">lorem06</a></li>
-                <li><a href="#">lorem07</a></li>
-                <li><a href="#">lorem08</a></li>
-                <li><a href="#">lorem09</a></li>
-                <li><a href="#">lorem10</a></li>
-            </ul>
+    <?php $args = array(
+    'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    'theme_location'  => 'service-notebook'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
+);
+wp_nav_menu($args); // выводим меню ноутбуков
+?>
         </div>
         <div class="block col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <a href="#">
@@ -84,18 +72,12 @@ wp_nav_menu($args); // выводим меню ТЕЛЕФОНОВ
                     <p>Ремонт электронных книг</p>
                 </div>
             </a>
-            <ul class="forplates  list-unstyled">
-                <li><a href="#">lorem01</a></li>
-                <li><a href="#">lorem02</a></li>
-                <li><a href="#">lorem03</a></li>
-                <li><a href="#">lorem04</a></li>
-                <li><a href="#">lorem05</a></li>
-                <li><a href="#">lorem06</a></li>
-                <li><a href="#">lorem07</a></li>
-                <li><a href="#">lorem08</a></li>
-                <li><a href="#">lorem09</a></li>
-                <li><a href="#">lorem10</a></li>
-            </ul>
+    <?php $args = array(
+    'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    'theme_location'  => 'service-ebook'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
+);
+wp_nav_menu($args); // выводим меню электронных книг
+?>
         </div>
     </div>
 </div>
