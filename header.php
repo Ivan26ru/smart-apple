@@ -68,9 +68,8 @@
 				</div><!-- col-md-12 -->
 	</header>
 	<div class="clearfix"></div>
-	
 
-<?php if( is_front_page() ) { //Если главная страница, отобразить карусель
-	get_template_part( 'carousel' );  
-}
+
+<?php //if( is_front_page() ) { //Если главная страница, отобразить карусель
+	//get_template_part( 'carousel' );}
 ?>

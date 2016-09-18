@@ -33,9 +33,115 @@ margin-top: 48px;
 }*/
 
 /*Анимация при наведении Взято с http://www.dilaxy.ru/*/
-.animation:hover {
+.animation:hover,
+a:hover .icon-phone,
+a:hover .icon-plansh,
+a:hover .icon-notebook
+a:hover .icon-ebook,
+a:hover .icon-mp3,
+a:hover .blockcont {
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
+
+/*ремонт техники*/
+.icons-service{
+	font-size:18px;
+}
+
+.icon-phone{
+    background: url('../my-smart/img/remont-front/phone_broken.png') center center no-repeat;
+    width: 100%;
+    height: 130px;
+}
+
+/*иконки вида техники*/
+.block:hover .icon-phone{
+    background-image:  url('../my-smart/img/remont-front/phone.png');
+}
+.icon-plansh{
+    background: url('../my-smart/img/remont-front/tablet_broken.png') center center no-repeat;
+    width: 100%;
+    height: 130px;
+}
+.block:hover .icon-plansh{
+    background-image:  url('../my-smart/img/remont-front/tablet.png');
+}
+.icon-ebook{
+    background: url('../my-smart/img/remont-front/ebook_broken.png') center center no-repeat;
+    width: 100%;
+    height: 130px;
+}
+.block:hover .icon-ebook{
+    background-image:  url('../my-smart/img/remont-front/ebook.png');
+}
+.icon-notebook{
+    background: url('../my-smart/img/remont-front/notebook_broken.png') center center no-repeat;
+    width: 100%;
+    height: 130px;
+}
+.block:hover .icon-notebook{
+    background-image:  url('../my-smart/img/remont-front/notebook.png');
+}
+.icon-mp3{
+    background: url('../my-smart/img/remont-front/mp3_broken.png') center center no-repeat;
+    width: 100%;
+    height: 130px;
+}
+.block:hover .icon-mp3{
+    background-image:  url('../my-smart/img/remont-front/mp3.png');
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -ms-transition: all 0s ease;
+    transition: all 0s ease;
+}
+.block:hover .blockcont{
+    background: #f6f6f6;
+    border: 1px solid #bdc3c7;
+    border-bottom: 0;
+}
+
+.blockcont{
+    width: 198px;
+    height: 180px;
+    border: 1px solid #ffffff;
+    border-bottom: 0;
+}
+
+/*Выпадающий список ремонта техники*/
+.block:hover .forplates{
+    opacity: 1;
+    -webkit-transition: 0.2s linear opacity;
+    visibility: visible;
+}
+.forplates {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 180px;
+    background-color: #2b313a;
+    width: 198px;
+    z-index: 10;
+    max-height: 180px;
+    overflow: hidden;
+    overflow-y:auto;
+    z-index: 99999999;
+}
+
+.forplates li a{
+    padding: 7px 0;
+    border-bottom: solid 1px #363e4d;
+    display: block;
+    color: #ffffff!important;
+
+}
+.forplates li:last-child, .forplates li.lastone{
+    border-bottom: 0px;
+}
+
+.forplates li:hover a{
+    color: #64d57a!important;
+}
+
