@@ -31,3 +31,11 @@
 body{
 margin-top: 48px;
 }*/
+
+/*Анимация при наведении Взято с http://www.dilaxy.ru/*/
+.animation:hover {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
