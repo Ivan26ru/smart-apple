@@ -6,7 +6,7 @@ jQuery(document).ready(function() {//ждем загрузки все стран
 
 
 // width_js=jQuery('#width-js-1').outerWidth();
-width_js=jQuery('.blockcont').width();//При смене разрешения экрана косяки
+width_js=jQuery('#width-js-1').outerWidth();//При смене разрешения экрана косяки
 // jQuery('#width-js-2').each(function(){
 //   jQuery(this).width(width_js)
 
