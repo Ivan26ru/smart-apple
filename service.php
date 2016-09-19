@@ -14,7 +14,7 @@
     <div class="row  text-center">
         <div class="block col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <a href="#">
-                <div class="blockcont text-center">
+                <div id="width-js-1" class="blockcont text-center">
                     <div class="icon-phone"></div>
                     <p>Ремонт телефонов</p>
                 </div>
@@ -24,7 +24,7 @@
     'container_class' => '',              // (string) class контейнера (div тега)
     'container_id'    => '',              // (string) id контейнера (div тега)
     'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
-    'menu_id'         => '',              // (string) id самого меню (ul тега)
+    'menu_id'         => 'width-js-2',              // (string) id самого меню (ul тега)
     'echo'            => true,            // (boolean) Выводить на экран или возвращать для обработки
     'before'          => '',              // (string) Текст перед <a> каждой ссылки
     'after'           => '',              // (string) Текст после </a> каждой ссылки
@@ -39,13 +39,14 @@ wp_nav_menu($args); // выводим меню ТЕЛЕФОНОВ
         </div>
         <div class="block col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <a href="#">
-                <div class="blockcont text-center">
+                <div id="width-js-1" class="blockcont text-center">
                     <div class="icon-plansh"></div>
                     <p>Ремонт планшетов</p>
                 </div>
             </a>
     <?php $args = array(
     'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    'menu_id'         => 'width-js-22',              // (string) id самого меню (ul тега)
     'theme_location'  => 'service-plansh'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
 );
 wp_nav_menu($args); // выводим меню планшетов
@@ -53,13 +54,14 @@ wp_nav_menu($args); // выводим меню планшетов
         </div>
         <div class="block col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <a href="#">
-                <div class="blockcont text-center">
+                <div id="width-js-1" class="blockcont text-center">
                     <div class="icon-notebook"></div>
                     <p>Ремонт ноутбуков</p>
                 </div>
             </a>
     <?php $args = array(
     'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    'menu_id'         => 'width-js-23',              // (string) id самого меню (ul тега)
     'theme_location'  => 'service-notebook'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
 );
 wp_nav_menu($args); // выводим меню ноутбуков
@@ -67,13 +69,14 @@ wp_nav_menu($args); // выводим меню ноутбуков
         </div>
         <div class="block col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <a href="#">
-                <div class="blockcont text-center">
+                <div id="width-js-1" class="blockcont text-center">
                     <div class="icon-ebook"></div>
                     <p>Ремонт электронных книг</p>
                 </div>
             </a>
     <?php $args = array(
     'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    'menu_id'         => 'width-js-24',              // (string) id самого меню (ul тега)
     'theme_location'  => 'service-ebook'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
 );
 wp_nav_menu($args); // выводим меню электронных книг
