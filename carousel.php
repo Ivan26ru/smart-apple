@@ -20,22 +20,22 @@
                 <div class="item active">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/1.jpg" width="100%" alt="...">
                     <div class="carousel-caption">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, dolorem.</p>
+                        <h1>БЕСПЛАТНАЯ ДИАГНОСТИКА</h1>
+                        <p>Быстро и качественно проведем диагностику Вашего устройства, и абсолютно бесплатно, даже если вы откажитесь от предложенного ремонта. Вы оплачиваете только те работы, которые привели к положительному результату.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/1.jpg" width="100%" alt="...">
+                    <div class="carousel-caption">
+                        <h3>СЕРВИСНЫЙ ЦЕНТР ДИЛАКСИ</h3>
+                        <p>Вам требуется ремонт цифровой техники? Тогда вы зашли по адресу. Наш сервисный центр в Москве и Санкт-Петербурге предлагает вам быстрый и качественный ремонт мобильных телефонов, ноутбуков, планшетов или иной мобильной техники.</p>
                     </div>
                 </div>
                 <div class="item">
                     <img src="http://placehold.it/960x240" width="100%" alt="...">
                     <div class="carousel-caption">
-                        <h3>Lorem ipsum dolor sit amet.</h3>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, sunt!</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="http://placehold.it/960x240" width="100%" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Lorem ipsum dolor sit amet.</h3>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dignissimos?</p>
+                        <h3>ГАРАНТИЯ КАЧЕСТВА РАБОТ</h3>
+                        <p>Мы имеем новейшее специализированное оборудование, оригинальные запчасти и квалифицированных специалистов, поэтому вы можете без опасений доверить ремонт мобильных устройств сервисному центру «Дилакси».</p>
                     </div>
                 </div>
             </div>

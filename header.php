@@ -27,16 +27,25 @@
 </head>
 <body <?php body_class(); // все классы для body ?>>
 	<header>
-	<div class="col-md-12">
-		<h1 class="text-center"><?php bloginfo('name'); ?></h1>
+	<!-- Шапка сайта -->
+	<div class="container">
+		<div class="col-md-4">
+			<a href="<?php echo site_url(); ?>">
+				<h1>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/smart-mobile-logo.png" class="logo-img" alt="">
+				<?php bloginfo('name'); ?></h1>
+			</a>
+		</div>
 	</div>
+	<!-- /Шапка сайта -->
 				<div class="col-md-12 navbar-margin">
 					<nav class="navbar navbar-default" id="top-navbar">
 					<!-- navbar-fixed-top для прижатие к потолку	 -->
 					<div class="container">
 						<div class="navbar-header">
 						                    <a class="navbar-brand dn" href="<?php echo site_url(); ?>" id="menu-top-name-siti">
-						                    	<span class="glyphicon glyphicon-random"></span>
+						                    	<!-- <span class="glyphicon glyphicon-random"></span> -->
+						                    	<img src="<?php echo get_template_directory_uri(); ?>/img/smart-mobile-logo.png" class="logo-img-menu" alt="">
                     							<?php bloginfo('name'); ?>
                     						</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
