@@ -7,7 +7,7 @@
 ?>
 <!-- карусель -->
  <!-- carusel -->
- <div class="col-md-12">
+ <div class="col-md-12 hidden-sm hidden-xs">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -18,24 +18,24 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/1.jpg" width="100%" alt="...">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/1.jpg" width="100%">
                     <div class="carousel-caption">
-                        <h1>БЕСПЛАТНАЯ ДИАГНОСТИКА</h1>
+                        <h3>БЕСПЛАТНАЯ ДИАГНОСТИКА</h3>
                         <p>Быстро и качественно проведем диагностику Вашего устройства, и абсолютно бесплатно, даже если вы откажитесь от предложенного ремонта. Вы оплачиваете только те работы, которые привели к положительному результату.</p>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/1.jpg" width="100%" alt="...">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/2.jpg" width="100%">
                     <div class="carousel-caption">
-                        <h3>СЕРВИСНЫЙ ЦЕНТР ДИЛАКСИ</h3>
-                        <p>Вам требуется ремонт цифровой техники? Тогда вы зашли по адресу. Наш сервисный центр в Москве и Санкт-Петербурге предлагает вам быстрый и качественный ремонт мобильных телефонов, ноутбуков, планшетов или иной мобильной техники.</p>
+                        <h3>СЕРВИСНЫЙ ЦЕНТР</h3>
+                        <p>Вам требуется ремонт цифровой техники? Тогда вы зашли по адресу. Наш сервисный центр в Светлограде предлагает вам быстрый и качественный ремонт мобильных телефонов, ноутбуков, планшетов или иной мобильной техники.</p>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="http://placehold.it/960x240" width="100%" alt="...">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/slider-karusel/3.jpg" width="100%">
                     <div class="carousel-caption">
                         <h3>ГАРАНТИЯ КАЧЕСТВА РАБОТ</h3>
-                        <p>Мы имеем новейшее специализированное оборудование, оригинальные запчасти и квалифицированных специалистов, поэтому вы можете без опасений доверить ремонт мобильных устройств сервисному центру «Дилакси».</p>
+                        <p>Мы имеем новейшее специализированное оборудование, оригинальные запчасти и квалифицированных специалистов, поэтому вы можете без опасений доверить ремонт мобильных устройств сервисному центру "<?php bloginfo('name'); ?>".</p>
                     </div>
                 </div>
             </div>
