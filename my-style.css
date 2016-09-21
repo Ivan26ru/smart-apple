@@ -286,3 +286,22 @@ a:hover .blockcont {
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
+
+
+/*изображение миниатюр категорий*/
+.category-img{
+  list-style:none;
+  display: -webkit-flex; /* Safari */
+display: flex; /*отображает контейнер как блочный элемент*/
+justify-content:space-between; /*выраснивание по горизонтали*/
+align-items:center; /*выраснивание по вертикали*/
+flex-wrap:wrap; /* многострочность */
+align-content:center;/* многострочное выравнивание */
+
+}
+
+.category-img li {
+  text-align:center;
+  width:300px;
+  /*border:1px solid red;*/
+}

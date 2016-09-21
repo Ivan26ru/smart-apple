@@ -13,7 +13,7 @@
 <div class="container icons-service">
     <div class="row  text-center">
         <div class="block col-xs-12 col-sm-6 col-md-3 col-lg-3">
-            <a href="#">
+            <a href="<?php echo site_url();//адрес сайта ?>/category/telefony/">
                 <div id="width-js-1" class="blockcont text-center">
                     <div class="icon-phone"></div>
                     <p>Ремонт телефонов</p>
