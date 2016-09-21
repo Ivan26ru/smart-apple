@@ -15,7 +15,7 @@
             <?php //echo get_query_var('cat'); //ID  текущей категории(в loop походу ни работает) ?>
 
 
-            
+
 <?php /* вывод списка рубрик */
 // ЧТОБ ВЫВЕЛОСЬ ИЗОБРАЖЕНИЕ ОБЯЗАТОЛЬКО ДОЛЖНА БЫТЬ ХОТЬ ОДНА ЗАПИСЬ
 $this_id_cat = get_query_var('cat');//присваиваем переменной ID текущей категории
@@ -32,14 +32,14 @@ $args = array(
  'pad_counts' => true
 );
 $catlist = get_categories($args); // получаем список рубрик
-echo '<ul class="category-img">'; 
+echo '<ul class="category-img">';
 foreach($catlist as $categories_item){
- 
+
  // получаем данные из плагина Taxonomy Images
  $terms = apply_filters('taxonomy-images-get-terms', '', array(
  'taxonomy' => 'category' // таксономия, для которой нужны изображения
  ));
- 
+
  if (!empty($terms)){
  foreach((array)$terms as $term){
  if ($term->term_id == $categories_item->term_id){
@@ -50,9 +50,9 @@ foreach($catlist as $categories_item){
         }
     }
  }
- 
+
  // выводим название рубрики
- //echo '<p>' . $categories_item->cat_name . '</p></li>';
+ echo '<p>' . $categories_item->cat_name . '</p></li>';
  }
 echo '</ul>';
  ?>

@@ -294,7 +294,7 @@ a:hover .blockcont {
   display: -webkit-flex; /* Safari */
 display: flex; /*отображает контейнер как блочный элемент*/
 justify-content:space-between; /*выраснивание по горизонтали*/
-align-items:center; /*выраснивание по вертикали*/
+align-items:flex-end; /*выраснивание по вертикали*/
 flex-wrap:wrap; /* многострочность */
 align-content:center;/* многострочное выравнивание */
 
