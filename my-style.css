@@ -293,15 +293,16 @@ a:hover .blockcont {
   list-style:none;
   display: -webkit-flex; /* Safari */
 display: flex; /*отображает контейнер как блочный элемент*/
-justify-content:space-between; /*выраснивание по горизонтали*/
+justify-content:flex-start; /*выраснивание по горизонтали*/
 align-items:flex-end; /*выраснивание по вертикали*/
 flex-wrap:wrap; /* многострочность */
 align-content:center;/* многострочное выравнивание */
 
 }
 
-.category-img li {
+.category-img a {
   text-align:center;
-  width:300px;
+  width:250px;
   /*border:1px solid red;*/
+  margin-right:20px;
 }

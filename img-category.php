@@ -44,17 +44,17 @@ foreach($catlist as $categories_item){
  foreach((array)$terms as $term){
  if ($term->term_id == $categories_item->term_id){
  // выводим изображение рубрики
- print '<li>
- <a href="' . esc_url(get_term_link($term, $term->taxonomy)) . '" title="Нажмите, чтобы перейти в рубрику">' . wp_get_attachment_image($term->image_id, 'medium');//определяем размер изображение(слово в кавычках) в данный момент medium
-                               echo '</a>';
+ print '
+ <a class="thumbnail" href="' . esc_url(get_term_link($term, $term->taxonomy)) . '" title="Нажмите, чтобы перейти в рубрику"><li>' . wp_get_attachment_image($term->image_id, 'medium');//определяем размер изображение(слово в кавычках) в данный момент medium
+                               echo '<p>' . $categories_item->cat_name . '</p></li></a>';
         }
     }
  }
 
  // выводим название рубрики
- echo '<p>' . $categories_item->cat_name . '</p></li>';
+
  }
-echo '</ul>';
+
  ?>
 
     </div>
