@@ -20,8 +20,10 @@ get_header(); // подключаем header.php ?>
 					</article>
 				<?php endwhile; // конец цикла ?>
 				<hr>
-				<p class="text-left"><?php previous_post_link('%link', '<- Предыдущий пост: %title', TRUE); // ссылка на предыдущий пост ?> </p>
-				<p class="text-right"><?php next_post_link('%link', 'Следующий пост: %title ->', TRUE); // ссылка на следующий пост ?> </p>
+				<ul class="pager">
+				  <li class="previous"><?php previous_post_link('%link', '<- Предыдущий пост: %title', TRUE); // ссылка на предыдущий пост ?> </li>
+				  <li class="next"><?php next_post_link('%link', 'Следующий пост: %title ->', TRUE); // ссылка на следующий пост ?> </li>
+				</ul>
 				<?php //if (comments_open() || get_comments_number()) comments_template('', true); // если комментирование открыто - мы покажем список комментариев и форму, если закрыто, но кол-во комментов > 0 - покажем только список комментариев ?>
 			</div>
 			<?php get_sidebar(); // подключаем sidebar.php ?>
