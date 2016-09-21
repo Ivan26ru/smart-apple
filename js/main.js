@@ -12,10 +12,23 @@ width_js=jQuery('#width-js-1').outerWidth();//При смене разрешен
 
 // });
 
-jQuery('#width-js-2').width(width_js);
-jQuery('#width-js-22').width(width_js);
-jQuery('#width-js-23').width(width_js);
-jQuery('#width-js-24').width(width_js);
+
+// width_jq(width_js);
+
+
+
+// jQuery("#width-js-2").each(function(indx){ // indx - номер элемента в наборе, element - сам элемент
+//  jQuery(this).width(width_js);
+// });
+
+
+jQuery('.width-js-2').width(width_js);
+
+
+// jQuery('#width-js-2').width(width_js);
+// jQuery('#width-js-22').width(width_js);
+// jQuery('#width-js-23').width(width_js);
+// jQuery('#width-js-24').width(width_js);
 
 // width(width_js)
 // width-js-1

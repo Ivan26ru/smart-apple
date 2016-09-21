@@ -23,8 +23,8 @@
     'container'       => '',           // (string) Контейнер меню. Обворачиватель ul. Указывается тег контейнера (по умолчанию в тег div)
     'container_class' => '',              // (string) class контейнера (div тега)
     'container_id'    => '',              // (string) id контейнера (div тега)
-    'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
-    'menu_id'         => 'width-js-2',              // (string) id самого меню (ul тега)
+    'menu_class'      => 'width-js-2 menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    //'menu_id'         => 'width-js-2',              // (string) id самого меню (ul тега)
     'echo'            => true,            // (boolean) Выводить на экран или возвращать для обработки
     'before'          => '',              // (string) Текст перед <a> каждой ссылки
     'after'           => '',              // (string) Текст после </a> каждой ссылки
@@ -45,8 +45,8 @@ wp_nav_menu($args); // выводим меню ТЕЛЕФОНОВ
                 </div>
             </a>
     <?php $args = array(
-    'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
-    'menu_id'         => 'width-js-22',              // (string) id самого меню (ul тега)
+    'menu_class'      => 'width-js-2 menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    //'menu_id'         => 'width-js-22',              // (string) id самого меню (ul тега)
     'theme_location'  => 'service-plansh'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
 );
 wp_nav_menu($args); // выводим меню планшетов
@@ -60,8 +60,8 @@ wp_nav_menu($args); // выводим меню планшетов
                 </div>
             </a>
     <?php $args = array(
-    'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
-    'menu_id'         => 'width-js-23',              // (string) id самого меню (ul тега)
+    'menu_class'      => 'width-js-2 menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    //'menu_id'         => 'width-js-23',              // (string) id самого меню (ul тега)
     'theme_location'  => 'service-notebook'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
 );
 wp_nav_menu($args); // выводим меню ноутбуков
@@ -75,8 +75,8 @@ wp_nav_menu($args); // выводим меню ноутбуков
                 </div>
             </a>
     <?php $args = array(
-    'menu_class'      => 'menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
-    'menu_id'         => 'width-js-24',              // (string) id самого меню (ul тега)
+    'menu_class'      => 'width-js-2 menu forplates  list-unstyled',          // (string) class самого меню (ul тега)
+    //'menu_id'         => 'width-js-24',              // (string) id самого меню (ul тега)
     'theme_location'  => 'service-ebook'               // (string) Расположение меню в шаблоне. (указывается ключ которым было зарегистрировано меню в функции register_nav_menus)
 );
 wp_nav_menu($args); // выводим меню электронных книг
