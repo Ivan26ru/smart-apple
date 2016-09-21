@@ -9,7 +9,7 @@ get_header(); // подключаем header.php ?>
 
 <?php get_template_part( 'carousel' );//подключаем карусель ?>
 
-<?php get_template_part( 'service' );//подключаем сервис(Ремонт техники) ?>
+<?php get_template_part( 'service-category' );//подключаем сервис(Ремонт техники) ?>
 
 <?php get_template_part( 'map' );//подключаем карту ?>
 
