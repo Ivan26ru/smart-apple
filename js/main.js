@@ -2,36 +2,11 @@
 
 jQuery(document).ready(function() {//ждем загрузки все страницы
 
-// Одинаковая ширина Ремонт техники иконки и выпадающего меню
+// Одинаковая ширина Ремонт техники иконки и выпадающего меню, через id не получилось, поэтому использовал классы
 
+width_js=jQuery('#width-js-1').outerWidth();//достаем ширину первого блока При смене разрешения экрана косяки
+jQuery('.width-js-2').width(width_js);//присваиваем ширину всем выпадающим меню
 
-// width_js=jQuery('#width-js-1').outerWidth();
-width_js=jQuery('#width-js-1').outerWidth();//При смене разрешения экрана косяки
-// jQuery('#width-js-2').each(function(){
-//   jQuery(this).width(width_js)
-
-// });
-
-
-// width_jq(width_js);
-
-
-
-// jQuery("#width-js-2").each(function(indx){ // indx - номер элемента в наборе, element - сам элемент
-//  jQuery(this).width(width_js);
-// });
-
-
-jQuery('.width-js-2').width(width_js);
-
-
-// jQuery('#width-js-2').width(width_js);
-// jQuery('#width-js-22').width(width_js);
-// jQuery('#width-js-23').width(width_js);
-// jQuery('#width-js-24').width(width_js);
-
-// width(width_js)
-// width-js-1
 
 
 // прилипающее меню
