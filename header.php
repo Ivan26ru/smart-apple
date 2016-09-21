@@ -29,16 +29,17 @@
 	<header>
 	<!-- Шапка сайта -->
 	<div class="container">
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<a href="<?php echo site_url(); ?>">
 				<h1 class="site-name-header">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/smart-mobile-logo.png" class="logo-img" alt="">
 				<?php bloginfo('name'); ?></h1>
 			</a>
 		</div>
-		<div class="col-md-8 text-right">
+		<div class="col-md-6 text-right">
 		<br>
-		<p><span class="glyphicon glyphicon-map-marker"></span>Светлоград   <span class="glyphicon glyphicon-time"></span>ПН-ПТ: <b>10:00 - 20:00</b> СБ: <b>10:00 - 18:00</b> ВС: <b>выходной</b></p>
+		<p><span class="glyphicon glyphicon-map-marker"></span>Светлоград   <span class="glyphicon glyphicon-time"></span>ПН-ПТ: <b>10:00 - 20:00</b> СБ: <b>10:00 - 18:00</b>
+		<br>ВС: <b>выходной</b></p>
 		<h4><span class="glyphicon glyphicon-earphone"></span>8-962-440-44-01</h4>
 		</div>
 	</div><!-- /container -->

@@ -11,4 +11,6 @@ get_header(); // подключаем header.php ?>
 <?php get_template_part( 'service' );//подключаем сервис(Ремонт техники) ?>
 <?php get_template_part( 'map' );//подключаем карту ?>
 
+<?php dynamic_sidebar( 'sidebar2' ); ?>
+
 <?php get_footer(); // подключаем footer.php ?>
