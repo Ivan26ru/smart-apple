@@ -86,6 +86,22 @@
 
                             <!-- кнопки справа-->
                             <form class="navbar-form navbar-right" role="search">
+
+<!-- кнопка для вызова модального окна -->
+<a class="btn btn-remont" data-toggle="modal" data-target=".bs-example-modal-sm">Статус заказа</a>
+
+<!-- модальное окно -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+<!-- кнопка закрыть справа -->
+<p class="text-right">
+<button type="button" class="btn btn-default text-right" data-dismiss="modal">Закрыть</button>
+</p>
+<!-- виджер статуса ремонта -->
+  	<div class="container text-center" style="margin-top: 158px;">
+		<div id="remonline-widget" data-key="447858abad1a687c1c3ed19a9f2ccbc3"></div>
+  	</div>
+</div>
+
                                 <!-- <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Онлайн консультант</a> -->
                                 <a href="<?php echo get_permalink(36); ?>" class="btn btn-remont">Отправить на ремонт</a>
                             </form>

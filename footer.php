@@ -24,5 +24,13 @@
 		</div>
 	</footer>
 <?php wp_footer(); // необходимо для работы плагинов и функционала  ?>
+<script type="text/javascript">
+    (function() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript'; script.async = true;
+        script.src = '//remonline.ru/static/js/remonline-widget.js';
+        document.getElementsByTagName('head')[0].appendChild(script);
+    })();
+</script>
 </body>
 </html>
