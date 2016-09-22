@@ -349,9 +349,11 @@ header, header>div{
   color:silver;
 }
 
-h1 *{
+h1 *,
+a:focus{
   text-decoration:none;
 }
+
 
 #top-navbar{
   margin-bottom:0px;
