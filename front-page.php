@@ -5,7 +5,6 @@
  * @subpackage your-clean-template-3
  */
 get_header(); // подключаем header.php ?>
-<!-- Менюшка -->
 
 <?php get_template_part( 'carousel' );//подключаем карусель ?>
 
