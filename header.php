@@ -49,19 +49,28 @@
 					<!-- navbar-fixed-top для прижатие к потолку	 -->
 					<div class="container">
 						<div class="navbar-header">
-						                    <a class="navbar-brand dn site-name-menu" href="<?php echo site_url(); ?>" id="menu-top-name-siti">
-						                    	<!-- <span class="glyphicon glyphicon-random"></span> -->
-						                    	<img src="<?php echo get_template_directory_uri(); ?>/img/smart-mobile-logo.png" class="logo-img-menu" alt="">
-                    							<?php bloginfo('name'); ?>
-                    						</a>
+
+						<!-- логотип и название сайта в фиксированном меню -->
+							<a class="navbar-brand dn site-name-menu" href="<?php echo site_url(); ?>" id="menu-top-name-siti">
+						        <!-- <span class="glyphicon glyphicon-random"></span> -->
+						        <img src="<?php echo get_template_directory_uri(); ?>/img/smart-mobile-logo.png" class="logo-img-menu" alt="">
+                    			<?php bloginfo('name'); ?>
+                    		</a>
+						<!-- /логотип и название сайта в фиксированном меню -->
+
+							<!-- кнопка для показа меню -->
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
 								<span class="sr-only">Меню</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
+							<!-- /кнопка для показа меню -->
+
 						</div>
 						<div class="collapse navbar-collapse" id="topnav">
+
+						<!-- Вывод меню -->
 							<?php $args = array( // опции для вывода верхнего меню, чтобы они работали, меню должно быть создано в админке
 								'theme_location' => 'top', // идентификатор меню, определен в register_nav_menus() в functions.php
 								'container'=> false, // обертка списка, тут не нужна
@@ -72,9 +81,11 @@
 					  			);
 								wp_nav_menu($args); // выводим верхнее меню
 							?>
-                            <!-- Отправить на ремонт -->
+							<!-- /Вывод меню -->
+
+                            <!-- кнопки справа-->
                             <form class="navbar-form navbar-right" role="search">
-                                <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Онлайн консультант</a>
+                                <!-- <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Онлайн консультант</a> -->
                                 <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Отправить на ремонт</a>
                             </form>
 						</div>
