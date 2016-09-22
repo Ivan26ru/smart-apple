@@ -33,8 +33,9 @@
 
 /*Размер шрифта*/
 
-header,
-p,
+/* header, */
+/* p, */
+.telefon-number,
 .carousel p,
 .icons-service {
     font-size: 18px;
@@ -354,4 +355,17 @@ h1 *{
 
 #top-navbar{
   margin-bottom:0px;
+}
+
+
+/*Контакты в шапке*/
+header .time-work span{
+    margin-left:10px;
+    color:#64d57a;
+    font-size: 14px;
+
+}
+
+.telefon-number{
+    color:#64d57a;
 }

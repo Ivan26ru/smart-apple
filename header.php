@@ -38,10 +38,10 @@
 		</div>
 		<div class="col-md-6 text-right">
 		<br>
-		<p><span class="glyphicon glyphicon-map-marker"></span>Светлоград   <span class="glyphicon glyphicon-time">
-		</span>ПН-ПТ: <b>9:00 - 18:00</b> СБ: <b>9:00 - 15:00</b>
-		<br>ВС: <b>выходной</b></p>
-		<h4><span class="glyphicon glyphicon-earphone"></span>  <b>8-962-440-44-01</b></h4>
+		<p class="time-work"><span class="glyphicon glyphicon-map-marker"></span>Светлоград   <span class="glyphicon glyphicon-time">
+		</span>ПН-ПТ: 9:00 - 18:00 СБ: 9:00 - 15:00
+		<br>ВС: выходной</p>
+		<p class="telefon-number"><span class="glyphicon glyphicon-earphone"></span> 8-962-440-44-01</p>
 		</div>
 	</div><!-- /container -->
 	<!-- /Шапка сайта -->
