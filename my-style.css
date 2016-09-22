@@ -306,3 +306,52 @@ align-content:center;/* многострочное выравнивание */
   /*border:1px solid red;*/
   margin-right:20px;
 }
+
+/*Кнопка отправить на ремонт*/
+.btn-remont{
+    display:inline-block;
+    padding:10px 20px;
+    font-size: 13px;
+    color: #64d57a;
+    text-decoration: none;
+        text-transform: uppercase;
+        font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    border:1px solid;
+    border-radius:5px;
+}
+
+.btn-remont:hover{
+    color:white;
+    background-color: #64d57a;
+    border-color:#64d57a;
+}
+
+/*Исправлен косяк с высотой кнопок верхнего меню, при добавлении иконки*/
+.top-menu>li>a{
+  height:50px;
+}
+
+/*ИСПРАВЛЕНИЕ ДИЗАЙНА*/
+
+header, header>div{
+  background-color:#444;
+  color:white;
+}
+
+.site-name-header{
+  color:white;
+}
+
+.site-name-header:hover{
+  color:silver;
+}
+
+h1 *{
+  text-decoration:none;
+}
+
+#top-navbar{
+  margin-bottom:0px;
+}

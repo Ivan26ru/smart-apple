@@ -7,7 +7,7 @@
 ?>
 <!-- карусель -->
  <!-- carusel -->
- <div class="col-md-12 hidden-sm hidden-xs">
+ <div class="hidden-sm hidden-xs">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">

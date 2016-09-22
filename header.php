@@ -38,13 +38,14 @@
 		</div>
 		<div class="col-md-6 text-right">
 		<br>
-		<p><span class="glyphicon glyphicon-map-marker"></span>Светлоград   <span class="glyphicon glyphicon-time"></span>ПН-ПТ: <b>10:00 - 20:00</b> СБ: <b>10:00 - 18:00</b>
+		<p><span class="glyphicon glyphicon-map-marker"></span>Светлоград   <span class="glyphicon glyphicon-time">
+		</span>ПН-ПТ: <b>9:00 - 18:00</b> СБ: <b>9:00 - 15:00</b>
 		<br>ВС: <b>выходной</b></p>
-		<h4><span class="glyphicon glyphicon-earphone"></span>8-962-440-44-01</h4>
+		<h4><span class="glyphicon glyphicon-earphone"></span>  <b>8-962-440-44-01</b></h4>
 		</div>
 	</div><!-- /container -->
 	<!-- /Шапка сайта -->
-				<div class="col-md-12 navbar-margin">
+				<div class="navbar-margin">
 					<nav class="navbar navbar-default" id="top-navbar">
 					<!-- navbar-fixed-top для прижатие к потолку	 -->
 					<div class="container">
@@ -86,7 +87,7 @@
                             <!-- кнопки справа-->
                             <form class="navbar-form navbar-right" role="search">
                                 <!-- <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Онлайн консультант</a> -->
-                                <a href="<?php echo get_permalink(36); ?>" class="btn btn-success">Отправить на ремонт</a>
+                                <a href="<?php echo get_permalink(36); ?>" class="btn btn-remont">Отправить на ремонт</a>
                             </form>
 						</div>
 						</div><!-- container -->
