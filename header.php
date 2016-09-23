@@ -85,7 +85,9 @@
 							<!-- /Вывод меню -->
 
                             <!-- кнопки справа-->
-                            <form class="navbar-form navbar-right" role="search" action="<?php echo home_url( '/' ) ?>" >
+                            <!-- добавил другую форму для поиска, чтоб с главной всегда искало и метод get -->
+                            <form class="navbar-form navbar-right" method="get" role="search" action="<?php echo home_url( '/' ) ?>" >
+                            <!-- сама форма поиска -->
                             <?php get_search_form() ?>
 
 <!-- кнопка для вызова модального окна -->
