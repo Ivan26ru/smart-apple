@@ -86,6 +86,7 @@
 
                             <!-- кнопки справа-->
                             <form class="navbar-form navbar-right" role="search">
+                            <?php get_search_form() ?>
 
 <!-- кнопка для вызова модального окна -->
 <a class="btn btn-remont" data-toggle="modal" data-target=".bs-example-modal-sm">Статус заказа</a>

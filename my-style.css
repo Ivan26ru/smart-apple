@@ -309,7 +309,9 @@ align-content:center;/* многострочное выравнивание */
 }
 
 /*Кнопка отправить на ремонт*/
+bottom.btn-remont,
 .btn-remont{
+    background:none;
     display:inline-block;
     padding:10px 20px;
     font-size: 13px;
@@ -370,4 +372,9 @@ header .time-work span{
 
 .telefon-number{
     color:#64d57a;
+}
+
+/*Отступ картинки от верхней части, в категории apple*/
+.apple-all{
+  padding-top:15px;
 }
