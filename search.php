@@ -14,7 +14,10 @@ get_header(); // подключаем header.php ?>
 					<?php get_template_part('loop'); // для отображения каждой записи берем шаблон loop.php ?>
 				<?php endwhile; // конец цикла
 				else: echo '<p>Нет записей.</p>'; endif; // если записей нет, напишим "простите" ?>	 
-				<?php pagination(); // пагинация, функция нах-ся в function.php ?>
+				<div class="clearfix"></div>
+				<div class="container text-center">
+					<?php pagination(); // пагинация, функция нах-ся в function.php ?>
+				</div>
 			</div>
 			<?php get_sidebar(); // подключаем sidebar.php ?>
 		</div>

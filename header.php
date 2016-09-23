@@ -85,7 +85,7 @@
 							<!-- /Вывод меню -->
 
                             <!-- кнопки справа-->
-                            <form class="navbar-form navbar-right" role="search">
+                            <form class="navbar-form navbar-right" role="search" action="<?php echo home_url( '/' ) ?>" >
                             <?php get_search_form() ?>
 
 <!-- кнопка для вызова модального окна -->
@@ -112,8 +112,6 @@
 				</div><!-- col-md-12 -->
 	</header>
 	<div class="clearfix"></div>
-
-
 <?php //if( is_front_page() ) { //Если главная страница, отобразить карусель
 	//get_template_part( 'carousel' );}
 ?>
