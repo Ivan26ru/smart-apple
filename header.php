@@ -28,7 +28,7 @@
 <body <?php body_class(); // все классы для body ?>>
 	<header>
 	<!-- Шапка сайта -->
-	<div class="container">
+	<div class="container-fluid">
 		<div class="col-md-6">
 			<a href="<?php echo site_url(); ?>">
 				<h1 class="site-name-header">
@@ -48,7 +48,7 @@
 				<div class="navbar-margin">
 					<nav class="navbar navbar-default" id="top-navbar">
 					<!-- navbar-fixed-top для прижатие к потолку	 -->
-					<div class="container">
+					<div class="container-fluid">
 						<div class="navbar-header">
 
 						<!-- логотип и название сайта в фиксированном меню -->
