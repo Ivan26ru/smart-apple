@@ -12,8 +12,9 @@ get_header(); // подключаем header.php ?>
 				<h1 class="text-center"><?php single_cat_title(); // название категории ?></h1>
 				<?php if ( $cat_desc = category_description() )
 	echo '<div class="row">'. $cat_desc .'</div>';
-else
-	echo '<div class="no__cat__desc">Описание отсутствует!</div>'; ?>
+else;
+	// echo '<div class="no__cat__desc">Описание отсутствует!</div>';
+?>
   <div class="clearfix"></div>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); // если посты есть - запускаем цикл wp ?>
 					<?php get_template_part('loop'); // для отображения каждой записи берем шаблон loop.php ?>
