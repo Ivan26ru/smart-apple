@@ -32,8 +32,9 @@
 		<div class="col-md-6">
 			<a href="<?php echo site_url(); ?>">
 				<h1 class="site-name-header">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/smart-mobile-logo.png" class="logo-img" alt="">
-				<?php bloginfo('name'); ?></h1>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo-full.png" class="logo-img" alt="">
+				<!-- <?php bloginfo('name'); ?> -->
+				</h1>
 			</a>
 		</div>
 		<div class="col-md-6 text-right">
@@ -54,8 +55,8 @@
 						<!-- логотип и название сайта в фиксированном меню -->
 							<a class="navbar-brand dn site-name-menu" href="<?php echo site_url(); ?>" id="menu-top-name-siti">
 						        <!-- <span class="glyphicon glyphicon-random"></span> -->
-						        <img src="<?php echo get_template_directory_uri(); ?>/img/smart-mobile-logo.png" class="logo-img-menu" alt="">
-                    			<?php bloginfo('name'); ?>
+						        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-full.png" class="logo-img-menu" alt="">
+                    			<!-- <?php bloginfo('name'); ?> -->
                     		</a>
 						<!-- /логотип и название сайта в фиксированном меню -->
 
