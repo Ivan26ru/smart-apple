@@ -1,6 +1,6 @@
 <?php
 /**
- * Шаблон РЕМОНТА ТЕЛЕФОНОВ (category-telefony.php)
+ * Шаблон Программы (category-telefony.php)
  * @package WordPress
  * @subpackage your-clean-template-3
  */
@@ -12,7 +12,6 @@ get_header(); // подключаем header.php ?>
 <hr>
 
 <?php get_template_part( 'service-category' );//подключаем сервис(Ремонт техники) ?>
-
 
 <?php //dynamic_sidebar( 'sidebar' ); // сайт бар который пока что не нужен?>
 
