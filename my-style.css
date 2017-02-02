@@ -189,7 +189,7 @@ a:hover .blockcont {
 .logo-img {
     width: 280px;
     margin-top:-15px;
-    margin-bottom:-15px;  
+    margin-bottom:-15px;
 }
 
 /*Лого в меню*/
@@ -306,7 +306,7 @@ align-content:center;/* многострочное выравнивание */
 
 }
 
-.category-img a {
+.category-img a, .category-img li {
   text-align:center;
   width:250px;
   /*border:1px solid red;*/
@@ -341,6 +341,11 @@ bottom.btn-remont,
   height:50px;
 }
 
+/*размер картинки*/
+.category-img img{
+  width:150px;
+  height:150px;
+}
 /*ИСПРАВЛЕНИЕ ДИЗАЙНА*/
 
 header, header>div{
@@ -382,4 +387,29 @@ header .time-work span{
 /*Отступ картинки от верхней части, в категории apple*/
 .apple-all{
   padding-top:15px;
+}
+
+/*==================ИНТЕРНЕТ МАГАЗИН==============*/
+
+.product-category{
+  margin-bottom:20px;
+}
+.product-category a{
+  border:1px solid #ddd;
+  display:block;
+  height:240px;
+}
+
+.product-category a:hover{
+  border-color:#999;
+}
+
+.product-category img{
+  width:150px;
+  height:150px;
+  margin-top:20px;
+}
+
+.product-category h3{
+  font-size:14px;
 }
